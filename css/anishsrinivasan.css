@@ -20,7 +20,7 @@ p {
 /* Main Wrapper */ 
 .container-fluid.main {
 	background-color: #000000;
-	padding-top: 10%;
+	padding-top: 15%;
 }
 .img-responsive.logo {
 	position: relative;
@@ -160,7 +160,7 @@ color: white;
 	text-align: center;
 	line-height: 24px;
 	font-size: 24px;
-	padding-top: 4%;
+
 }
 
 
@@ -168,11 +168,11 @@ color: white;
 	padding-right: 20px;
 	padding-bottom: 20px;
 	padding-left: 20px;
-	color: #DDDDDD;
+	color: #000000;
 	padding-top: 20px;
 }
 .soc:hover {
-  color: #FFFFFF;
+  color: rgb(84, 84, 84);
 }
 
 /* Works Section */
