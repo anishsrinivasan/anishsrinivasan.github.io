@@ -144,7 +144,6 @@ position: absolute;
 
 .particles-wrapper {
     position: relative;
-    height: 100%;
     text-align: center;
 	background-color:black;
 }
@@ -270,7 +269,12 @@ position: absolute;
 
 @media (max-width:649px){
 	
-h1 {
+	p {
+		font-size:1em;
+	}
+	
+	
+ h1 {
 	font-size:3em;
 }	
 	
