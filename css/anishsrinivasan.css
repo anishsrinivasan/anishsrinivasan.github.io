@@ -4,6 +4,7 @@
 
 body {
 	    overflow-x: hidden;
+		position: relative;
 }
 
 h1 {
@@ -245,16 +246,15 @@ position: absolute;
 	color: rgba(220,220,220,1.00);
 	text-align: center;
 	font-size: 1em;
-}
-.container-fluid.footer {
-	background-color: #141c1f;
 	padding:2%;
-
+	background-color: #141c1f;
 }
+
 
 .footer p {
 	color: rgba(255,255,255,1.00);
 	font-size: 1.2em;
+	padding:0px;
 }
 
 .godown .fa.fa-angle-down {
@@ -269,6 +269,10 @@ position: absolute;
 /* Mobile */
 
 @media (max-width:649px){
+	
+h1 {
+	font-size:2em;
+}	
 	
 .mainrow {
     padding: 50% 0;
