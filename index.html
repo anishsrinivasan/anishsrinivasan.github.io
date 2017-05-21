@@ -51,7 +51,7 @@
                         <a href="#page-top"></a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#home">Hi</a>
+                        <a class="page-scroll" href="#hi">Hi</a>
                     </li>
                     <li>
                         <a class="page-scroll" href="#works">Works</a>
@@ -71,18 +71,22 @@
         </div>
         <!-- /.container -->
     </nav>
-  <div class="container-fluid main" id="home">
-<div class="row mainrow">
-    <div class="col-md-12 section"><img src="images/main.png" alt="Placeholder image" width="200" height="200" class="img-responsive logo">
-        <p><br>Hi, I am anish Srinivasan. <br>
+  
+	   <!-- Main Wrapper -->
+	
+	<div class="container-fluid particles-wrapper" id="hi">
+	<div id="particles-js"></div>
+	<div class="row mainrow col-md-12 section" style="position:relative;">
+	<img src="images/main.png" alt="Placeholder image" width="200" height="200" class="img-responsive logo">
+        <p ><br>Hi, I am anish Srinivasan. <br>
           A Lazy Coder. Web Developer and Co-Founder, <a href="http://www.techazor.com" target="_blank" style="color:#ffffff;" title="Techazor">Techazor</a>.</p>
     </div></div> 
+	
+	</div>
 
+	<!-- Works -->
+	
 <div class="container-fluid works" >
-<div class="row worksmain" id="works">
-      </div>
-
-</div>
 <div class="row works"> <div class="col-md-12"><h1>Works</h1></div>
 
       <div class="col-sm-4 center-block"><a href="http://www.golddentalcare.com" target="_blank"><img src="images/gold.png" alt="Placeholder image" class="img-responsive center-block hvr-float-shadow workport"></a></div>
@@ -92,11 +96,16 @@
 	  <div class="col-sm-4  center-block"><a href="http://www.studiosingularity.com" target="_blank"><img src="images/studiosingularity.png" class="img-responsive center-block hvr-float-shadow workport" alt="Placeholder image"></a></div>
 	  <div class="col-sm-4  center-block"><a href="http://www.fourpointsix.com" target="_blank"><img src="images/fourpointsix.png" class="img-responsive center-block hvr-float-shadow workport" alt="Placeholder image"></a></div>
     </div></div>
-  <div class="container-fluid approach" id="approach">
+	
+	<!-- About -->
+	
+	
+ <div class="container-fluid approach" id="approach">
 <div class="row approach">
       <div class="col-md-12 mobilepad">
-        <h1>What we do?</h1>
-        <p>&nbsp;</p>
+        <h1 style="color:white;">What we do?</h1>
+       <div class="col-md-6">
+	   <p>&nbsp;</p>
         <p>We love to create websites which are beautiful. <br>
           <br>
           We try to use the most advanced techniques which are at the forefront of the current industries standards of a rapidly evolving industry to create the fastest, lightest and easy to use websites. <br>
@@ -104,7 +113,10 @@
           To create websites which are Simple, Intuitive, Timeless, Versitile and Appropriate.</p>
       </div>
     </div>
-</div>
+</div></div>
+
+<!-- Contact -->
+
 <div class="container-fluid contact" id="contact">
 <div class="row contact">
       <div class="col-md-12 mobilepad">
@@ -120,12 +132,17 @@
     </div>
 	
 </div>
+
+<!-- Footer -->
+
 <div class="container-fluid footer" id="footer">
   <div class="row">
-      <div class="col-md-12 footer"><a href="#home" class="page-scroll"><p>Go Home, You're Drunk! <i class="fa fa-angle-up"></i></p></a></div>
+      <div class="col-md-12 footer"><a href="#hi" class="page-scroll"><p>Go Home, You're Drunk! <i class="fa fa-angle-up"></i></p></a></div>
     </div>
 	
 </div>
+  
+  
   
 	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) --> 
 	<script src="js/jquery-1.11.2.min.js"></script>
@@ -138,6 +155,119 @@
     
     <script src="js/jquery.easing.min.js"></script>
 	
+	<script src="http://www.autogeto.com/brandesense/wp-content/uploads/2017/05/particles.min_.js"></script>
+	
+	<script type="text/javascript">
+particlesJS("particles-js", {
+  "particles": {
+    "number": {
+      "value": 327,
+      "density": {
+        "enable": true,
+        "value_area": 5445.118727262681
+      }
+    },
+    "color": {
+      "value": "#ffffff"
+    },
+    "shape": {
+      "type": "circle",
+      "stroke": {
+        "width": 0,
+        "color": "#000000"
+      },
+      "polygon": {
+        "nb_sides": 5
+      },
+      "image": {
+        "src": "img/github.svg",
+        "width": 100,
+        "height": 100
+      }
+    },
+    "opacity": {
+      "value": 0.15,
+      "random": false,
+      "anim": {
+        "enable": false,
+        "speed": 1,
+        "opacity_min": 0.1,
+        "sync": false
+      }
+    },
+    "size": {
+      "value": 3,
+      "random": true,
+      "anim": {
+        "enable": false,
+        "speed": 40,
+        "size_min": 0.1,
+        "sync": false
+      }
+    },
+    "line_linked": {
+      "enable": true,
+      "distance": 96.20472365193136,
+      "color": "#ffffff",
+      "opacity": 0.4,
+      "width": 1
+    },
+    "move": {
+      "enable": true,
+      "speed": 6,
+      "direction": "none",
+      "random": false,
+      "straight": false,
+      "out_mode": "out",
+      "bounce": false,
+      "attract": {
+        "enable": false,
+        "rotateX": 600,
+        "rotateY": 1200
+      }
+    }
+  },
+  "interactivity": {
+    "detect_on": "canvas",
+    "events": {
+      "onhover": {
+        "enable": true,
+        "mode": "repulse"
+      },
+      "onclick": {
+        "enable": true,
+        "mode": "push"
+      },
+      "resize": true
+    },
+    "modes": {
+      "grab": {
+        "distance": 400,
+        "line_linked": {
+          "opacity": 1
+        }
+      },
+      "bubble": {
+        "distance": 400,
+        "size": 40,
+        "duration": 2,
+        "opacity": 8,
+        "speed": 3
+      },
+      "repulse": {
+        "distance": 200,
+        "duration": 0.4
+      },
+      "push": {
+        "particles_nb": 4
+      },
+      "remove": {
+        "particles_nb": 2
+      }
+    }
+  },
+  "retina_detect": true
+});</script>
 	 <!-- Anish Srinivasan JS --> 
 	
 	<script src="js/anishsrinivasan.js"></script>
